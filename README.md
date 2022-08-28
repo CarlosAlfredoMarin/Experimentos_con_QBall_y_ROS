@@ -5,6 +5,8 @@ Este repositorio contiene las carpetas, códigos y explicación de algunos exper
 
 **Índice**
 1. [Instalación Librería Hector](#id1)
+2. [Crear el Espacio de Trabajo](#id2)
+3. [¿Cómo Lanzar los Experimentos?](#id3)
 
 
 Para descargar los archivos de este repositorio y poder ejecutarlos en tu propio computador sigue las siguientes instrucciones.  
@@ -17,7 +19,7 @@ sudo apt-get install ros-noetic-ros-control ros-noetic-gazebo-ros-control ros-no
 
 <div id='id1' />
 
-## Instalación Librería Hector
+# Instalación Librería Hector
 
 Crear una carpeta en el usuario raíz
 ```
@@ -42,8 +44,9 @@ source ~/.bashrc
 ```
 <br>
 
+<div id='id2' />
 
-## Crear el Espacio de Trabajo
+# Crear el Espacio de Trabajo
 En una nueva terminal:  
 
 Crear una carpeta en el usuario raíz
@@ -84,6 +87,8 @@ Compilamos, nuevamente, el espacio de trabajo
 cd ~/my_ws
 catkin_make
 ```
+
+<div id='id3' />
 
 # ¿Cómo Lanzar los Experimentos?
 Cada una de kas siguientes líneas de código se ejecutan en terminales separadas, por ejemplo, ```Lazo Abierto - Movimiento Circular``` tiene 2 líneas para ejecutarm usted debe abrir 2 terminales.
