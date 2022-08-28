@@ -107,7 +107,7 @@ catkin_make
 <div id='id3' />
 
 # ¿Cómo Lanzar los Experimentos?
-Cada una de kas siguientes líneas de código se ejecutan en terminales separadas, por ejemplo, ```Lazo Abierto - Movimiento Circular``` tiene 2 líneas para ejecutarm usted debe abrir 2 terminales.
+Cada una de kas siguientes líneas de código se ejecutan en terminales separadas, por ejemplo, ```Lazo Abierto - Movimiento Circular``` tiene 2 líneas, usted debe abrir 2 terminales, una para cada línea de código.
 
 <div id='id4' />
 
