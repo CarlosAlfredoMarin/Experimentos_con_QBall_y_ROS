@@ -1,5 +1,7 @@
 # Lazo Abierto - Movimiento Circular
 
+![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/dron_cinematico/src/movimiento_circular/Movimiento_Circular.gif)
+
 Este codigo es un ejemplo para publicar velocidades a un robot simulado y suscribirse a su odometria. 
 <br><br>
 
