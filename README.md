@@ -110,6 +110,10 @@ rosrun dron_cinematico lider_seguidor
 Lazo Cerrado - Trayectoria, Líder-Seguidor y Gráfica
 ```
 roslaunch dron_cinematico lanzador_2_quadrotores.launch
+```
+```
 rosrun dron_cinematico lider_seguidor_grafica
+```
+```
 roslaunch dron_cinematico visualizacion_lider_seguidor_graficas.launch
 ```
