@@ -1,5 +1,7 @@
 # Lazo Cerrado - Trayectoria, Líder-Seguidor y Gráfica
 
+![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/dron_cinematico/src/lider_seguidor_grafica/lider_seguidor_grafica.gif)
+
 Con este nodo, la trayectoria deseada del dron líder y la trayectoria del dron seguidor son publicadas en el tópico correspondiente para su visualización en Rviz.  
 <br><br>
 
