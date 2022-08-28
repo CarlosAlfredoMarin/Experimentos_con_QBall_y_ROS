@@ -1,8 +1,6 @@
 # Lazo Cerrado - Trayectoria Lemniscata
 
-<center>
 ![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/dron_cinematico/src/lemniscata_helice/lemniscata.gif)
-</center>
    
 Este nodo ejecuta el controlador para resolver el problema de seguimiento utilizando un dron en gazebo. en la funcion "velocity_controller" tanto la trayectoria deseada como las señales de control son calculadas, para este ejemplo la trayectoria deseada es una lemniscata.  
 <br><br>
