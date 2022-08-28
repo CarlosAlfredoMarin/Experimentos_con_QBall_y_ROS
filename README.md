@@ -81,33 +81,34 @@ catkin_make
 ```
 
 # ¿Cómo Lanzar los Experimentos?
+Cada una de kas siguientes líneas de código se ejecutan en terminales separadas, por ejemplo, ```Lazo Abierto - Movimiento Circular``` tiene 2 líneas para ejecutarm usted debe abrir 2 terminales.
 
-Lazo Abierto - Movimiento Circular
+##Lazo Abierto - Movimiento Circular
 ```
 roslaunch dron_cinematico lanzador_principal.launch
 rosrun dron_cinematico movimiento_circular
 ```
 
-Lazo Cerrado - Trayectoria Lemniscata
+##Lazo Cerrado - Trayectoria Lemniscata
 ```
 roslaunch dron_cinematico lanzador_principal.launch
 rosrun dron_cinematico lemniscata_helice
 ```
 
-Lazo Cerrado - Trayectoria Lemniscata y Gráfica
+##Lazo Cerrado - Trayectoria Lemniscata y Gráfica
 ```
 roslaunch dron_cinematico lanzador_principal.launch
 rosrun dron_cinematico lemniscata_helice_grafica
 roslaunch dron_cinematico visualizacion_graficas.launch
 ```
 
-Lazo Cerrado - Trayectoria, Líder-Seguidor
+##Lazo Cerrado - Trayectoria, Líder-Seguidor
 ```
 roslaunch dron_cinematico lanzador_2_quadrotores.launch
 rosrun dron_cinematico lider_seguidor
 ```
 
-Lazo Cerrado - Trayectoria, Líder-Seguidor y Gráfica
+##Lazo Cerrado - Trayectoria, Líder-Seguidor y Gráfica
 ```
 roslaunch dron_cinematico lanzador_2_quadrotores.launch
 ```
