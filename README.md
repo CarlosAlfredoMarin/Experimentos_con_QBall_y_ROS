@@ -12,7 +12,6 @@ Este repositorio contiene las carpetas, códigos y explicación de algunos exper
   - [Lazo Cerrado - Trayectoria Lemniscata y Gráfica](#id6)
   - [Lazo Cerrado - Trayectoria, Líder-Seguidor](#id7)
   - [Lazo Cerrado - Trayectoria, Líder-Seguidor y Gráfica](#id8)
-  - [](#id9)
 
 <br><br>
 
