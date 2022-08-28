@@ -1,5 +1,7 @@
 # Lazo Cerrado - Trayectoria, Líder-Seguidor
 
+![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/dron_cinematico/src/lider_seguidor/lider_seguidor.gif)
+
 Este nodo ejecuta el controlador para resolver el problema del control de formacion usando el esquema lider-seguidor con 2 drones simulados en gazebo. El dron lider sigue su trayectoria deseada utilizando la funcion ```velocity controller``` y entonces el robot seguidor sigue la trayectoria desfasada del robot lider.  
 <br><br>
 
