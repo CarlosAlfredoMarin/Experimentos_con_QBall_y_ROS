@@ -79,3 +79,28 @@ Compilamos, nuevamente, el espacio de trabajo
 cd ~/my_ws
 catkin_make
 ```
+
+# ¿Cómo Lanzar los Experimentos?
+
+Lazo Abierto - Movimiento Circular
+roslaunch dron_cinematico lanzador_principal.launch
+rosrun dron_cinematico movimiento_circular
+
+Lazo Cerrado - Trayectoria Lemniscata
+roslaunch dron_cinematico lanzador_principal.launch
+rosrun dron_cinematico lemniscata_helice
+
+Lazo Cerrado - Trayectoria Lemniscata y Gráfica
+roslaunch dron_cinematico lanzador_principal.launch
+rosrun dron_cinematico lemniscata_helice_grafica
+roslaunch dron_cinematico visualizacion_graficas.launch
+
+Lazo Cerrado - Trayectoria, Líder-Seguidor
+roslaunch dron_cinematico lanzador_2_quadrotores.launch
+rosrun dron_cinematico lider_seguidor
+
+Lazo Cerrado - Trayectoria, Líder-Seguidor y Gráfica
+roslaunch dron_cinematico lanzador_2_quadrotores.launch
+rosrun dron_cinematico lider_seguidor_grafica
+roslaunch dron_cinematico visualizacion_lider_seguidor_graficas.launch
+
