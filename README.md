@@ -12,7 +12,6 @@ Este repositorio contiene las carpetas, códigos y explicación de algunos exper
       - [Lazo Cerrado - Trayectoria Lemniscata y Gráfica](#id6)
       - [Lazo Cerrado - Trayectoria, Líder-Seguidor](#id7)
       - [Lazo Cerrado - Trayectoria, Líder-Seguidor y Gráfica](#id8)  
-
 <br><br>
 
 
@@ -48,8 +47,10 @@ cd ..
 catkin_make
 echo "source ~/hector_ws/devel/setup.bash" >> ~/.bashrc 
 source ~/.bashrc
-```
-<br>
+```  
+<br><br>
+
+
 
 <div id='id2' />
 
@@ -93,7 +94,7 @@ Compilamos, nuevamente, el espacio de trabajo
 ```
 cd ~/my_ws
 catkin_make
-```  
+```   
 <br><br>
 
 
@@ -113,6 +114,7 @@ Cada una de kas siguientes líneas de código se ejecutan en terminales separada
 ## Lazo Abierto - Movimiento Circular
 
 [Código Movimiento Circular]
+
 [Código Movimiento Circular]: https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/tree/main/dron_cinematico/src/movimiento_circular
 
 ```
@@ -127,6 +129,11 @@ rosrun dron_cinematico movimiento_circular
 <div id='id5' />
 
 ## Lazo Cerrado - Trayectoria Lemniscata
+
+[Trayectoria Lemniscata]
+
+[Trayectoria Lemniscata]: https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/tree/main/dron_cinematico/src/lemniscata_helice
+
 ```
 roslaunch dron_cinematico lanzador_principal.launch
 ```
@@ -134,9 +141,16 @@ roslaunch dron_cinematico lanzador_principal.launch
 rosrun dron_cinematico lemniscata_helice
 ```
 
+
+
 <div id='id6' />
 
 ## Lazo Cerrado - Trayectoria Lemniscata y Gráfica
+
+[Trayectoria Lemniscata y Gráfica]
+
+[Trayectoria Lemniscata y Gráfica]: https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/tree/main/dron_cinematico/src/lemniscata_helice_grafica
+
 ```
 roslaunch dron_cinematico lanzador_principal.launch
 ```
@@ -147,9 +161,17 @@ rosrun dron_cinematico lemniscata_helice_grafica
 roslaunch dron_cinematico visualizacion_graficas.launch
 ```
 
+
+
+
 <div id='id7' />
 
 ## Lazo Cerrado - Trayectoria, Líder-Seguidor
+
+[Trayectoria, Líder-Seguidor]
+
+[Trayectoria, Líder-Seguidor]: https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/tree/main/dron_cinematico/src/lider_seguidor
+
 ```
 roslaunch dron_cinematico lanzador_2_quadrotores.launch
 ```
@@ -157,9 +179,16 @@ roslaunch dron_cinematico lanzador_2_quadrotores.launch
 rosrun dron_cinematico lider_seguidor
 ```
 
+
+
 <div id='id8' />
 
 ## Lazo Cerrado - Trayectoria, Líder-Seguidor y Gráfica
+
+[Trayectoria, Líder-Seguidor y Gráfica]
+
+[Trayectoria, Líder-Seguidor y Gráfica]: https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/tree/main/dron_cinematico/src/lider_seguidor_grafica
+
 ```
 roslaunch dron_cinematico lanzador_2_quadrotores.launch
 ```
