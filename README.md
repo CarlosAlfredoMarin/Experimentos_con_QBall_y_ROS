@@ -8,6 +8,11 @@ Este repositorio contiene las carpetas, códigos y explicación de algunos exper
 2. [Crear el Espacio de Trabajo](#id2)
 3. [¿Cómo Lanzar los Experimentos?](#id3)
   - [Lazo Abierto - Movimiento Circular](#id4)
+  - [Lazo Cerrado - Trayectoria Lemniscata](#id5)
+  - [Lazo Cerrado - Trayectoria Lemniscata y Gráfica](#id6)
+  - [Lazo Cerrado - Trayectoria, Líder-Seguidor](#id7)
+  - [Lazo Cerrado - Trayectoria, Líder-Seguidor y Gráfica](#id8)
+  - [](#id9)
 
 <br><br>
 
@@ -106,6 +111,8 @@ roslaunch dron_cinematico lanzador_principal.launch
 rosrun dron_cinematico movimiento_circular
 ```
 
+<div id='id5' />
+
 ## Lazo Cerrado - Trayectoria Lemniscata
 ```
 roslaunch dron_cinematico lanzador_principal.launch
@@ -113,6 +120,8 @@ roslaunch dron_cinematico lanzador_principal.launch
 ```
 rosrun dron_cinematico lemniscata_helice
 ```
+
+<div id='id6' />
 
 ## Lazo Cerrado - Trayectoria Lemniscata y Gráfica
 ```
@@ -125,6 +134,8 @@ rosrun dron_cinematico lemniscata_helice_grafica
 roslaunch dron_cinematico visualizacion_graficas.launch
 ```
 
+<div id='id7' />
+
 ## Lazo Cerrado - Trayectoria, Líder-Seguidor
 ```
 roslaunch dron_cinematico lanzador_2_quadrotores.launch
@@ -132,6 +143,8 @@ roslaunch dron_cinematico lanzador_2_quadrotores.launch
 ```
 rosrun dron_cinematico lider_seguidor
 ```
+
+<div id='id8' />
 
 ## Lazo Cerrado - Trayectoria, Líder-Seguidor y Gráfica
 ```
