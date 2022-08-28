@@ -1,5 +1,7 @@
 # Lazo Cerrado - Trayectoria Lemniscata y Gráfica
 
+![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/dron_cinematico/src/lemniscata_helice_grafica/lemniscata_grafica.gif)
+
 ## Descripcion
 Este nodo ejecuta el controlador para resolver el problema de seguimiento utilizando un dron en gazebo.  También tanto la trayectoria deseada como la trayectoria real del dron son publicadas en los tópicos ```/tr_path``` y ```/path```, respectivamente, para su visualización en Rviz.  
 <br><br>
