@@ -15,6 +15,8 @@ Se requieren instalar algunas dependencias de ROS. En una nueva terminal:
 sudo apt-get install ros-noetic-ros-control ros-noetic-gazebo-ros-control ros-noetic-unique-identifier ros-noetic-tf2-geometry-msgs ros-noetic-laser-geometry ros-noetic-geographic-info ros-noetic-tf-conversions ros-noetic-joy
 ```
 
+<div id='id1' />
+
 ## Instalación Librería Hector
 
 Crear una carpeta en el usuario raíz
