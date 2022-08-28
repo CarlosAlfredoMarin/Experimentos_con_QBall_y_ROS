@@ -113,7 +113,7 @@ Cada una de kas siguientes líneas de código se ejecutan en terminales separada
 
 ## Lazo Abierto - Movimiento Circular
 
-[Código Movimiento Circular]
+[Movimiento Circular]
 
 [Código Movimiento Circular]: https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/tree/main/dron_cinematico/src/movimiento_circular
 
