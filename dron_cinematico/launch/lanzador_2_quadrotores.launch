@@ -17,7 +17,7 @@
        <arg name="name" value="$(arg namespace1)" /> <!-- Nombre del robot en Gazebo -->
        <arg name="tf_prefix" value="$(arg namespace1)" />      
        <arg name="base_link_frame" value="$(arg namespace1)/base_link" /> <!-- base_link_frame es requerido dado que mas de un robot sera usado -->
-       <arg name="model" value="$(find dron_cinematico)/urdf/quadrotor_seguidor.xacro" />
+       <arg name="model" value="$(find dron_cinematico)/urdf/quadrotor.xacro" />
        <arg name="x" value="0.0" /> <!-- Posicion inical (x,y,z,yaw) -->
        <arg name="y" value="-1.0" />
        <arg name="z" value="0.3" />
@@ -30,7 +30,7 @@
        <arg name="name" value="$(arg namespace2)" />
        <arg name="tf_prefix" value="$(arg namespace2)" />
        <arg name="base_link_frame" value="$(arg namespace2)/base_link" />
-       <arg name="model" value="$(find dron_cinematico)/urdf/quadrotor.xacro" />
+       <arg name="model" value="$(find dron_cinematico)/urdf/quadrotor_seguidor.xacro" />
        <arg name="x" value="0.0" />
        <arg name="y" value="1.0" />
        <arg name="z" value="0.3" />
