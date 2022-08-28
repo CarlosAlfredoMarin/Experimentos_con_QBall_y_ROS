@@ -11,7 +11,7 @@ Este repositorio contiene las carpetas, códigos y explicación de algunos exper
       - [Lazo Cerrado - Trayectoria Lemniscata](#id5)
       - [Lazo Cerrado - Trayectoria Lemniscata y Gráfica](#id6)
       - [Lazo Cerrado - Trayectoria, Líder-Seguidor](#id7)
-      - [Lazo Cerrado - Trayectoria, Líder-Seguidor y Gráfica](#id8)
+      - [Lazo Cerrado - Trayectoria, Líder-Seguidor y Gráfica](#id8)  
 
 <br><br>
 
@@ -93,7 +93,7 @@ Compilamos, nuevamente, el espacio de trabajo
 ```
 cd ~/my_ws
 catkin_make
-```
+```  
 <br><br>
 
 
@@ -111,6 +111,10 @@ Cada una de kas siguientes líneas de código se ejecutan en terminales separada
 <div id='id4' />
 
 ## Lazo Abierto - Movimiento Circular
+
+[Código Movimiento Circular]
+[Código Movimiento Circular]: https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/tree/main/dron_cinematico/src/movimiento_circular
+
 ```
 roslaunch dron_cinematico lanzador_principal.launch
 ```
@@ -118,9 +122,6 @@ roslaunch dron_cinematico lanzador_principal.launch
 rosrun dron_cinematico movimiento_circular
 ```
 
-[Código Movimiento Circular]
-
-[Código Movimiento Circular]: https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/tree/main/dron_cinematico/src/movimiento_circular
 
 
 <div id='id5' />
