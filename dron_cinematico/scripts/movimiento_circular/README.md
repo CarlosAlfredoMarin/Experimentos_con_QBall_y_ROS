@@ -245,25 +245,25 @@ def main_function():
     rospy.logwarn("To start the movement, the simulation must be running\n\n")
 
 
-	while(1):
+    while(1):
         # Publicar las velocidades
         velocity_publisher.publish(vel)
 
         # Divisor de frecuencia para mostrar los errores de seguimiento de forma mas lenta 
-		if counter == 50:
-            # Imprimir en la terminal los errores de seguimiento [m] y el error de orientacion [rad]
-			rospy.loginfo("ex: %.3f ey: %.3f ez: %.2f e_yaw: %.3f\n", ex,ey,ez,e_yaw)
+	if counter == 50:
+	    # Imprimir en la terminal los errores de seguimiento [m] y el error de orientacion [rad]
+            rospy.loginfo("ex: %.3f ey: %.3f ez: %.2f e_yaw: %.3f\n", ex,ey,ez,e_yaw)
             # Reseteo el contador
-			counter = 0
-		else:
-			counter += 1    
+	    counter = 0
+	else:
+	    counter += 1    
 
         # La función spinOnce() no existe en python
         # Comando para esperar el resto del tiempo para completar la frecuencia del bucle 
-		rate.sleep()
-		key = getKey()
-		if(key == 'q'): #b'\x1b' is 'ESC' key
-			break
+	rate.sleep()
+	key = getKey()
+	if(key == 'q'): #b'\x1b' is 'ESC' key
+	    break
   
     #Funcion aterrizar el dron 
     land(); 
