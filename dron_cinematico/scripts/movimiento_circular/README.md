@@ -72,6 +72,7 @@ from geometry_msgs.msg import Twist
 Para hacer la conversion de cuaternión a ángulo-Euler (fichero)
 ```python
 from tf.transformations import euler_from_quaternion, quaternion_from_euler
+```
 
 Las últimas librerías se necesitan para utilizar eventos del teclado
 ```python
