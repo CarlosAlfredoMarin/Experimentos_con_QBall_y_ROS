@@ -11,7 +11,7 @@ Este nodo ejecuta el controlador para resolver el problema del control de formac
 Primero se hace una llamda al servicio ```/enable_motors``` para cada uno d elos drones. Se definden las funciones de despegue y aterrizaje para ambos drones.  
 <br>
 
-Para aterrizar ambos drones y terminar este nodo, se necesita presioanr la tecla ```ESC```.  
+Para aterrizar ambos drones y terminar este nodo, se necesita presioanr la tecla ```q```.  
 <br><br> 
 
 ## Instrucciones:
