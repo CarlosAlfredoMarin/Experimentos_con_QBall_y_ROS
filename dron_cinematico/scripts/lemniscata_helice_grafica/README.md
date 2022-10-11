@@ -2,7 +2,7 @@
 
 ![](https:#github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/dron_cinematico/src/lemniscata_helice/lemniscata.gif)
   
-Este script de python es equivalente a ```src/limniscata_helice.cpp```, así que este ejecuta las mismas tareas.  
+Este script de python es equivalente a ```src/lemniscata_helice.cpp```, así que este ejecuta las mismas tareas.  
 <br><br>
 
 Este nodo ejecuta el controlador para resolver el problema de seguimiento utilizando un dron en gazebo. en la funcion "velocity_controller" tanto la trayectoria deseada como las señales de control son calculadas, para este ejemplo la trayectoria deseada es una lemniscata.  
