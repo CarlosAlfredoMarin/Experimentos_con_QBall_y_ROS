@@ -380,8 +380,8 @@ Derivadas de tiempo correspondientes
   Yawdp = w*cos(w*t);
 ```
 
-```cpp
 Asignar la posición deseada al objeto "tr_pose"
+```cpp
   tr_pose.pose.position.x = Xd; tr_pose.pose.position.y = Yd; tr_pose.pose.position.z = Zd;
   // Agregar el nuevo punto a la lista
   tr_path_msg.poses.push_back(tr_pose); 
