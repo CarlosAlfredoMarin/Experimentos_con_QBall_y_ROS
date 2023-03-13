@@ -4,7 +4,7 @@ Este repositorio contiene las carpetas, códigos y explicación de algunos exper
 ![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Qball.png)
 
 # Índice
-0. [Instalación ROS Noetic en UBuntu 20.04 LTS](#id0)
+0. [Instalación ROS Noetic en Ubuntu 20.04 LTS](#id0)
 1. [Instalación Librería Hector](#id1)
 2. [Crear el Espacio de Trabajo](#id2)
 3. [¿Cómo Lanzar los Experimentos?](#id3)
@@ -17,6 +17,7 @@ Este repositorio contiene las carpetas, códigos y explicación de algunos exper
 
 
 <div id='id0' />
+
 # Instalación ROS Noetic en Ubuntu 20.04
 
 Antes de instalar ROS Noetic, se debe tener Ubuntu 20.04 instalado en su máquina, tener acceso de root para poder utilizar el superusuario a la hora de las instalaciones y además tener una buena conexión a internet.
