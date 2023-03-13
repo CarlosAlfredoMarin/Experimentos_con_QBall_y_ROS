@@ -193,6 +193,9 @@ Recomendaciones: instalar el software T erminator para un facil manejo de las te
 
 sudo apt-get install terminator
 ~~~
+<br><br>
+
+
 
 
 
