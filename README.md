@@ -36,7 +36,7 @@ Posteriormente, digite su contraseña de usuario.
 Se necesita agregar la llave ROS Noetic para obtener paquetes ROS autenticados.
 
 ~~~
-sudo apt install curl
+sudo apt install curl -y
 ~~~
 
 ~~~
@@ -54,6 +54,11 @@ sudo apt update
 
 ~~~
 sudo apt upgrade
+~~~
+
+Instalar herramientas de red:
+~~~
+sudo apt-get install net-tools
 ~~~
 
 ## Instalar Paquete Ros Noetic
