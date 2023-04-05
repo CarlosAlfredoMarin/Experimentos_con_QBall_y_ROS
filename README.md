@@ -66,7 +66,7 @@ Se instala el paquete mas completo, este es el mas recomendado ya que cuenta con
 todo en el escritorio, más simuladores 2D/3D y paquetes de percepción 2D/3D.
 
 ~~~
-sudo apt install ros-noetic-desktop-full -y
+sudo apt install ros-noetic-desktop-full
 ~~~
 
 Cuando el sistema le pida confirmación, debe presionar '*Y*' seguidamente la tecla '*ENTER*' para continuar con la instalación. Este proceso toma alrededor de 10 a 20 minutos.
