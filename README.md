@@ -105,7 +105,7 @@ sudo apt install python3-rosdep
 ~~~
 
 ~~~
-sudo apt install python3-rostopic
+sudo apt install catkin
 ~~~
 
 Para inicializar rosdep:
