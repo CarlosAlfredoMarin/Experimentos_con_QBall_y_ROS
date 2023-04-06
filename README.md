@@ -104,6 +104,10 @@ Antes de utilizar muchas herramientas ROS, deberá inicializar rosdep, esto le p
 sudo apt install python3-rosdep
 ~~~
 
+~~~
+sudo apt install python3-rostopic
+~~~
+
 Para inicializar rosdep:
 ~~~
 sudo rosdep init
