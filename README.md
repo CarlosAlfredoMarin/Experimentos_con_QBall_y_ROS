@@ -94,7 +94,7 @@ source ~/.bashrc
 Para crear y administrar sus propios espacios de trabajo ROS, existen varias herramientas y requisitos que se distribuyen por separado. Por ejemplo, rosinstall es una herramienta de línea de comandos de uso frecuente, que le permite descargar fácilmente muchos árboles de origen para paquetes ROS con un solo comando. Para instalar esta herramienta y otras dependencias cuya función es construir paquetes ROS, es necesario ejecutar:
 
 ~~~
-sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential python3-rostopic
 ~~~
 
 ## Inicializacion de Rosdep
