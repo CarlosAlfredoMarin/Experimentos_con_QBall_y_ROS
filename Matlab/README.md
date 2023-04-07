@@ -3,6 +3,8 @@
 # Índice
 1. [Lazo Abierto sin ROS](#id0)
 2. [Lazo Abierto con ROS](#id1)
+3. [Controlador PD sin ROS](#id2)
+2. [Controlador PD con ROS](#id3)
 <br><br>
 
 
