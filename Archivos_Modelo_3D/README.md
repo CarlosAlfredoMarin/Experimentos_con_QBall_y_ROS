@@ -48,7 +48,7 @@ Los archivo SolidWorks se encuentran en el siguiente link:
 
 El archivo de Blender se encuentra en el siguiente Link: 
 
-* [Carpeta Archivo Dorn](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/tree/main/Archivos_Modelo_3D/Archivos_Blender)
+* [Carpeta Archivo Dron](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/tree/main/Archivos_Modelo_3D/Archivos_Blender)
 
 
 
