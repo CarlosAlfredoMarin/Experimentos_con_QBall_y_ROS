@@ -40,3 +40,11 @@ cd ~/Qball
 catkin_make
 ```   
 <br><br>
+
+# Como Lanzar el Experimento:
+
+Ejecutamos el archivo lanzador con el siguiente comando
+~~~
+roslaunch qball Lanzador_Qball.launch
+~~~
+
