@@ -1,6 +1,6 @@
 
 # Para poder correr el archivo:
-Ejecute el siguioente link :
+Ejecute el siguiente link :
 * [Workspace](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/qball/Crear_Workspace.md)
 
 # Breve Descripcion del Construcción de las Partes de Robot
