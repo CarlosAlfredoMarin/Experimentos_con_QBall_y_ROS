@@ -1,5 +1,5 @@
 # Experimentos con QBall, ROS y MATLAB
-Este repositorio contiene las carpetas, códigos y explicación de algunos experimentos básicos realizados con la librería Hector_Quadrotor, un modelo tridimensional del dron Quanser Qball2 y ROS.
+Este repositorio contiene las carpetas, códigos y explicación de algunos experimentos básicos y avanzados realizados con la librería Hector_Quadrotor, un modelo tridimensional del dron Quanser Qball2, ROS y MATLAB.
 
 ![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Qball.png)
 
