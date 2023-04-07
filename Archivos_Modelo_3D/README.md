@@ -14,19 +14,22 @@ Este tutorial describe los detalles para construir el archivo SDF y las piezas n
 2. [Archivo Blender](#archivo-blender)
 3. [Creacion de Espacio de Trabajo](#creacion-de-espacio-de-trabajo)
 
-<div id='piezas-de-la-libreria-grabcad' />
-## Piezas de La libreria GrabCad:
+<br> 
+<div id='piezas-de-la-libreria-grabcad'/>
+
+# Piezas de La libreria GrabCad:
 
 ![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Archivos_Modelo_3D/Imagenes/libreria1.png)
 ![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Archivos_Modelo_3D/Imagenes/libreria2.png)
 
 Las partes del dron se encuentran en el siguiente link: 
-
 * [Carpeta archivos GrabCad](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/tree/main/Archivos_Modelo_3D/Archivos_GrabCad)
 * [Pagina Oficial](https://grabcad.com/library)
 
-<div id='piezas-solidworks' />
-## Piezas en solidWorks:
+<br> 
+<div id='piezas-solidworks'/>
+
+# Piezas en solidWorks:
 
 ![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Archivos_Modelo_3D/Imagenes/Partes_Solidwork.png)
 ![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Archivos_Modelo_3D/Imagenes/Base_Completa.png)
@@ -35,8 +38,10 @@ Los archivo Simulink se encuentran en el siguiente link:
 
 * [Carpeta archivos SolidWorks](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/tree/main/Archivos_Modelo_3D/Archivos_Solidwork)
 
-<div id='archivo-blender' />
-## Archivo Blender:
+<br> 
+<div id='archivo-blender'/>
+
+# Archivo Blender:
 
 ![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Archivos_Modelo_3D/Imagenes/Dron_Blender.png)
 
@@ -45,8 +50,10 @@ El archivo de Blender se encuentra en el sigueinte Link:
 
 * [Carpeta Archivo Dorn](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/tree/main/Archivos_Modelo_3D/Archivos_Blender)
 
-<div id='creacion-de-espacio-de-trabajo' />
-## Creacion de Espacio de Trabajo.
+<br> 
+<div id='creacion-de-espacio-de-trabajo'/>
+
+# Creacion de Espacio de Trabajo.
 
 En una nueva terminal
 
