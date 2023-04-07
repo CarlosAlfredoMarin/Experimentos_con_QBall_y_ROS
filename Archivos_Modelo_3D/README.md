@@ -18,7 +18,8 @@ Este tutorial describe los detalles para construir el archivo SDF y las piezas n
 
 # Piezas de La libreria GrabCad:
 
-![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Archivos_Modelo_3D/Imagenes/Partes_Solidwork.png)
+![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Archivos_Modelo_3D/Imagenes/libreria1.png)
+![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Archivos_Modelo_3D/Imagenes/libreria2.png)
 
 Las partes del dron se encuentran en el siguiente link: 
 
