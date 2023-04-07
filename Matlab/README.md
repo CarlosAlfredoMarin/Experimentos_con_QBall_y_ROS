@@ -31,13 +31,13 @@
 
 # Controlador PD sin ROS
 
-![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Matlab/Imagenes/PD_sinROS.png)
+![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Matlab/Imagenes/PD_SinROS.png)
 
 
 
 
-<div id='id3 />
+<div id='id3' />
 
-# Controlador PD sin ROS
+# Controlador PD con ROS
 
-![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Matlab/Imagenes/PD_sinROS.png)
+![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Matlab/Imagenes/PD_ConROS.png)
