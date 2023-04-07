@@ -1,4 +1,34 @@
-# Elementos Necearios:
+
+# Para poder correr el archivo:
+Ejecute el siguioente link :
+* [Workspace](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/qball/Crear_Workspace.md)
+
+# Breve Descripcion del Construcción de las Partes de Robot
+Creamos el paquete de desarrollo, el cual tiene un archivo con las librerías y configuración necesarias.  El paquete tendrá el nombre "Qball".
+
+~~~
+catkin_create_pkg Qball std_msgs rospy roscpp urdf
+~~~
+Ingresamos a la carpeta Qball
+~~~~
+cd qball
+~~~~
+
+Creamos una carpeta "sdf"
+~~~
+mkdir sdf
+~~~
+
+En la carpeta "sdf" es donde alojaremos los archivos de descripción del robot. El archivo qball.sdf contiene la descripción de las siguientes partes del robot:
+
+- Esfera
+- Base
+- Propel 1
+- Propel 2
+- Propel 3
+- Propel 4
+
+Para definir cada una de estas piezas, es necesario conocer los elementos necesarios para crearlos:
 
 1. [Elementos Link:](#elemento-link)
     
@@ -7,6 +37,41 @@
     3. [Inercia](#construcción-inercias-elemento-link)
 
 2. [Elemento Joint](#configuración-elemento-joint)
+
+
+Existe una herramienta que permite ver el diagrama de conexiones del robot, usamos el siguiente comando para instalarla:
+~~~
+sudo apt install liburdfdom-tools
+~~~
+ejecutamos la herramienta (debemos estar primero ubicados en la carpeta que contiene el archivo .sdf)
+~~~
+cd urdf
+urdf_to_graphiz model.sdf
+~~~
+
+Ahora, tenemos 2 archivos nuevos creados, en los cuales está la visualización gráfica de los link y joint, abrimos el archivo nuevo de extensión .pdf:
+
+~~~
+Imagen
+~~~
+
+Para revisar si el archivo URDF tiene errores se corre la siguiente line de codigo, es importante entrar a la carpeta donde se encuentra el archivos .sdf, de lo contrario, genera error.:
+~~~
+check_urdf model.sdf
+~~~
+
+# creacion del archivo lanzador
+
+Ahora, vamos a crear un archivo lanzador, con solo llamar este archivo por consola, se ejecutará automáticamente el roscore y se ejecutará Gazebo con nuestro robot en pantalla. Creamos una carpeta llamada launch:
+~~~
+/qball/
+mkdir launch
+~~~
+Copiar el archivo display.launch, compilamos el espacio de trabajo, abrimos terminal en Brazo_Robot:
+~~~
+catkin_make
+~~~
+
 
 # Elemento Link:
 
