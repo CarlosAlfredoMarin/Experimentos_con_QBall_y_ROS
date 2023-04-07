@@ -279,7 +279,7 @@ source ~/.bashrc
 
 Ahora, procedemos a clonar este repositorio, dentro de la carpeta ```src```:
 ```
-cd ~/my_ws/src </code></pre> 
+cd ~/my_ws/src
 git clone https://github.com/CarlosAlfredoMarin/Experimentos_con_Libreria_Hector
 ```
 
