@@ -39,45 +39,11 @@ Para definir cada una de estas piezas, es necesario conocer los elementos necesa
 2. [Elemento Joint](#configuración-elemento-joint)
 
 
-Existe una herramienta que permite ver el diagrama de conexiones del robot, usamos el siguiente comando para instalarla:
-~~~
-sudo apt install liburdfdom-tools
-~~~
-ejecutamos la herramienta (debemos estar primero ubicados en la carpeta que contiene el archivo .sdf)
-~~~
-cd urdf
-urdf_to_graphiz model.sdf
-~~~
-
-Ahora, tenemos 2 archivos nuevos creados, en los cuales está la visualización gráfica de los link y joint, abrimos el archivo nuevo de extensión .pdf:
-
-~~~
-Imagen
-~~~
-
-Para revisar si el archivo URDF tiene errores se corre la siguiente line de codigo, es importante entrar a la carpeta donde se encuentra el archivos .sdf, de lo contrario, genera error.:
-~~~
-check_urdf model.sdf
-~~~
-
-# creacion del archivo lanzador
-
-Ahora, vamos a crear un archivo lanzador, con solo llamar este archivo por consola, se ejecutará automáticamente el roscore y se ejecutará Gazebo con nuestro robot en pantalla. Creamos una carpeta llamada launch:
-~~~
-/qball/
-mkdir launch
-~~~
-Copiar el archivo display.launch, compilamos el espacio de trabajo, abrimos terminal en Brazo_Robot:
-~~~
-catkin_make
-~~~
-
-
 # Elemento Link:
 
 # Construcción Visual en Gazebo (Elemento Link)
 
-![Dron blender](/imagenes/visual.png)
+![Dron blender](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/qball/Imagenes/visual.png)
 
 Para esto se procede a utilizar la etiqueta Visual, parámetro de geometría en el cual se importan
 las mallas (estructuras complejas) creadas en Blender. Se realizaron diferentes Pruebas con las
@@ -140,7 +106,7 @@ verde, azul, opacidad; comprendido cada uno entre 0 y 1
 
 # Construcción Colisiones (Elemento Link)
 
-![Dron blender](/imagenes/Construccion.png)
+![Dron blender](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/qball/Imagenes/Construccion.png)
 
 - El elemento de colisión es un subelemento directo del objeto de enlace, al mismo nivel
 que la etiqueta visual.
@@ -181,7 +147,7 @@ unión de la geometría que definen constituye la representación visual del esl
 
 # Construcción Inercias (Elemento Link)
 
-![Dron blender](/imagenes/inercia1.png)
+![Dron blender](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/qball/Imagenes/inercia1.png)
 
 Para que el modelo se simule correctamente, se deben definir varias propiedades físicas del robot,
 es decir, las propiedades que necesita Gazebo para dar interaccion con el ambiente.
@@ -226,7 +192,7 @@ En este se encuentra la forma correcta de calcular la Inercia segun la figura, p
 Formula para calcular la matriz de inercia de un paralelepípedo sólido de ancho w, altura h,
 profundidad d y masa m:
 
-![Dron blender](/imagenes/formula.png)
+![Dron blender](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/qball/Imagenes/formula.png)
 
 
 
