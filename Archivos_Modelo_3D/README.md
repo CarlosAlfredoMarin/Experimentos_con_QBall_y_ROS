@@ -29,7 +29,7 @@ Las partes del dron se encuentran en el siguiente link:
 
 # Archivo Blender.
 
-![Dron blender](/imagenes/Dron_Blender.png)
+![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Archivos_Modelo_3D/Imagenes/Dron_Blender.png)
 
 
 El archivo de Blender se encuentra en el sigueinte Link: 
