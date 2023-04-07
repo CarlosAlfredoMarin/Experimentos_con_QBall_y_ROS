@@ -11,7 +11,7 @@ Este tutorial describe los detalles para construir el archivo SDF y las piezas n
 
 1. [Piezas Librerias GrabCad](#piezas-de-la-libreria-grabcad)
 2. [Piezas en solidWorks](#piezas-de-solidworks)
-2. [Archivo Blender.](#archivo-blender)
+2. [Archivo Blender](#archivo-blender)
 3. [Creacion de Espacio de Trabajo](#creacion-de-espacio-de-trabajo)  
 
 <br>
@@ -24,15 +24,15 @@ Este tutorial describe los detalles para construir el archivo SDF y las piezas n
 
 Las partes del dron se encuentran en el siguiente link: 
 
-* [Carpeta archivos GrabCad](http://www.limni.net)
-* [Pagina Oficial](http://www.limni.net)
+* [Carpeta archivos GrabCad]()
+* [Pagina Oficial](https://grabcad.com/library)
 
 <br>
 
 # Piezas en solidWorks
 
 ![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Archivos_Modelo_3D/Imagenes/Partes_Solidwork.png)
-![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Archivos_Modelo_3D/Imagenes/Partes_Solidwork.png)
+![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Archivos_Modelo_3D/Imagenes/Base_Completa.png)
 
 Los archivo Simulink se encuentran en el siguiente link: 
 
