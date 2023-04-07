@@ -12,7 +12,7 @@ Este tutorial describe los detalles para construir el archivo SDF y las piezas n
 1. [Piezas Librerias GrabCad](#piezas-de-la-libreria-grabcad)
 2. [Piezas solidWorks](#piezas-solidworks)
 2. [Archivo Blender](#archivo-blender)
-3. [Creacion de Espacio de Trabajo](#creacion-de-espacio-de-trabajo)
+
 
 <br> 
 <div id='piezas-de-la-libreria-grabcad'/>
