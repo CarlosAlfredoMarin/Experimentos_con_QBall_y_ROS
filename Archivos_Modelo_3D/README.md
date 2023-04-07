@@ -34,7 +34,7 @@ Las partes del dron se encuentran en el siguiente link:
 ![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Archivos_Modelo_3D/Imagenes/Partes_Solidwork.png)
 ![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Archivos_Modelo_3D/Imagenes/Base_Completa.png)
 
-Los archivo Simulink se encuentran en el siguiente link: 
+Los archivo SolidWorks se encuentran en el siguiente link: 
 
 * [Carpeta archivos SolidWorks](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/tree/main/Archivos_Modelo_3D/Archivos_Solidwork)
 
@@ -46,7 +46,7 @@ Los archivo Simulink se encuentran en el siguiente link:
 ![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Archivos_Modelo_3D/Imagenes/Dron_Blender.png)
 
 
-El archivo de Blender se encuentra en el sigueinte Link: 
+El archivo de Blender se encuentra en el siguiente Link: 
 
 * [Carpeta Archivo Dorn](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/tree/main/Archivos_Modelo_3D/Archivos_Blender)
 
