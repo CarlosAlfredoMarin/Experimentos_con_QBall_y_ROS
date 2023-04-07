@@ -10,7 +10,7 @@ Este repositorio contiene las carpetas, códigos y explicación de algunos exper
 Este tutorial describe los detalles para construir el archivo SDF y las piezas necesarias que se requieren para importar en este:
 
 1. [Piezas Librerias GrabCad](#piezas-de-la-libreria-grabcad)
-2. [Piezas en solidWorks](#piezas-de-solidworks)
+2. [Piezas solidWorks](#piezas-solidworks)
 2. [Archivo Blender](#archivo-blender)
 3. [Creacion de Espacio de Trabajo](#creacion-de-espacio-de-trabajo)  
 
@@ -24,30 +24,30 @@ Este tutorial describe los detalles para construir el archivo SDF y las piezas n
 
 Las partes del dron se encuentran en el siguiente link: 
 
-* [Carpeta archivos GrabCad]()
+* [Carpeta archivos GrabCad](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/tree/main/Archivos_Modelo_3D/Archivos_GrabCad)
 * [Pagina Oficial](https://grabcad.com/library)
 
-<br>
+<br> 
 
-# Piezas en solidWorks
+# Piezas en solidWorks:
 
 ![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Archivos_Modelo_3D/Imagenes/Partes_Solidwork.png)
 ![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Archivos_Modelo_3D/Imagenes/Base_Completa.png)
 
 Los archivo Simulink se encuentran en el siguiente link: 
 
-* [Carpeta archivos GrabCad](http://www.limni.net)
+* [Carpeta archivos SolidWorks](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/tree/main/Archivos_Modelo_3D/Archivos_Solidwork)
 
 <br>
 
-# Archivo Blender.
+# Archivo Blender:
 
 ![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Archivos_Modelo_3D/Imagenes/Dron_Blender.png)
 
 
 El archivo de Blender se encuentra en el sigueinte Link: 
 
-* [Carpeta Archivo Dorn](http://www.limni.net)
+* [Carpeta Archivo Dorn](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/tree/main/Archivos_Modelo_3D/Archivos_Blender)
 
 <br>
 
