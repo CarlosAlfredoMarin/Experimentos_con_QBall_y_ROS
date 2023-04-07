@@ -23,3 +23,21 @@
 # Lazo Abierto con ROS
 
 ![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Matlab/Imagenes/LazoAbierto_ConROS.png)
+
+
+
+
+<div id='id2' />
+
+# Controlador PD sin ROS
+
+![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Matlab/Imagenes/PD_sinROS.png)
+
+
+
+
+<div id='id3 />
+
+# Controlador PD sin ROS
+
+![](https://github.com/CarlosAlfredoMarin/Experimentos_con_QBall_y_ROS/blob/main/Matlab/Imagenes/PD_sinROS.png)
